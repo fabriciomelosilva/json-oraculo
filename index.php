@@ -1,5 +1,9 @@
 <?php
 
-$json= file_get_contents("teste.json");
+$json = file_get_contents("db.json");
 
-echo $json;
+
+$teste = json_decode($json);
+$teste2 = json_encode($teste);
+
+echo $teste2;
