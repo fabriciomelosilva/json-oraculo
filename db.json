@@ -1,132 +1,1692 @@
-[
+{
+  "isLive": {
+    "id_day": 3,
+    "id_program": 17,
+    "name": "Forrozão da Verdinha",
+    "slug": "forrozao-da-verdinha"
+  },
+  "programacao": [
     {
       "id": 1,
-      "category_id": 1,
-      "name": "Acidentes Desastres e Meio Ambiente",
-      "slug": "acidentes-desastres-e-meio-ambiente",
-      "title": "Últimas notícias sobre Acidentes Desastres e Meio Ambiente - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-09-06 21:14:46",
-      "id_polopoly": null,
-      "category": "Acidentes Desastres e Meio Ambiente"
+      "name": "Domingo",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Show da Madrugada",
+          "short_desc": "É o programa preferido daqueles que trocam o dia pela noite.",
+          "long_desc": "É o programa preferido daqueles que trocam o dia pela noite, trazendo músicas que marcaram época em todos os ritmos, samba, pagode, romântica, internacional e também a música do presente.\"",
+          "img": "/img/show-da-madrugada5ddee13b576b1.png",
+          "speaker": "Programação Musical",
+          "link": "",
+          "display_days": 7,
+          "slug": "show-da-madrugada",
+          "frequence": "Domingo de 0h às 4h. Segunda a sexta de 0h às 5h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 1,
+            "start_time": "00:00",
+            "end_time": "04:00"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Bom dia, Nordeste",
+          "short_desc": "Todo domingo há um encontro marcado com o melhor da cultura nordestina: o autêntico forró, os causos populares, as curiosidades da gente nordestina.",
+          "long_desc": "Todo domingo há um encontro marcado com o melhor da cultura nordestina: o autêntico forró, os causos populares, as curiosidades da gente nordestina. O Bom Dia, Nordeste é um programa com muita poesia sertaneja, cantoria de viola além de informação gerais.",
+          "img": "/img/bom-dia-nordeste5ddeba5cb397a.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 1,
+          "slug": "bom-dia-nordeste",
+          "frequence": "Domingo, de 4h às 6h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 2,
+            "start_time": "04:00",
+            "end_time": "06:00"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Conversa com o Tom",
+          "short_desc": "O programa \"Conversa com o Tom\" traz toda experiência de Tom Barros nas manhãs de domingo.",
+          "long_desc": "O programa \"Conversa com o Tom\" traz toda experiência de Tom Barros nas manhãs de domingo. O apresentador leva à programação da Verdinha informações variadas, com qualidade e críticas, além de reviver as canções antigas que fizeram sucesso.",
+          "img": "/img/domingo-legal5ddebad158465.png",
+          "speaker": "Tom Barros",
+          "link": "",
+          "display_days": 1,
+          "slug": "conversa-com-o-tom",
+          "frequence": "Domingo, de 6h às 10h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 3,
+            "start_time": "06:00",
+            "end_time": "10:00"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Bola ao Centro",
+          "short_desc": "A atração mescla temas atuais e do passado, traçando um paralelo entre as épocas nos gramados.",
+          "long_desc": "O dominical \"Bola ao Centro\" traz um apanhado geral do que 'rolou' na semana dos clubes cearenses, os Principais lances dos jogos transmitidos durante a semana e os comentários a respeito das equipes.",
+          "img": "/img/bola-ao-centro5ddebae5a30b7.png",
+          "speaker": "Daniel Rocha",
+          "link": "",
+          "display_days": 1,
+          "slug": "bola-ao-centro",
+          "frequence": "Domingo, das 10h às 12h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 4,
+            "start_time": "10:00",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "id": 5,
+          "name": "Domingo Esportivo",
+          "short_desc": "O Domingo Esportivo é um programa de debate que aborda notícias do esporte do Brasil e do mundo, focando o marketing esportivo, o mercado do futebol e os principais campeonatos do planeta.",
+          "long_desc": "O Domingo Esportivo é um programa de debate que aborda notícias do esporte do Brasil e do mundo, focando o marketing esportivo, o mercado do futebol e os principais campeonatos do planeta.",
+          "img": "/img/domingo-esportivo5ddebafaa6b83.png",
+          "speaker": "Jurani Parente",
+          "link": "",
+          "display_days": 1,
+          "slug": "domingo-esportivo",
+          "frequence": "Domingo, das 12h às 15h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 5,
+            "start_time": "12:00",
+            "end_time": "15:00"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Futebol com os Craques da Verdinha",
+          "short_desc": "A participação dos clubes cearenses é destaque na transmissão de jogos.",
+          "long_desc": "Antes das transmissões dos jogos, você pode acompanhar todo os momentos com a equipe esportiva da Verdinha. Logo em seguida, os consagrados locutores da Rádio Verdes Mares narram os campeonatos de futebol pelo País. A participação dos clubes cearenses é destaque na transmissão de jogos. Grandes torneios internacionais, como a Copa das Confederações e Copa do Mundo, também são acompanhados pelos Craques da Verdinha. A emoção continua depois do apito final: nossos especialistas comentam os gols, lances, atuação dos jogadores, situação na tabela e muito mais.",
+          "img": "/img/futebol-com-os-craques-da-verdinha5ddec56a36329.png",
+          "speaker": "Equipe esportiva",
+          "link": "",
+          "display_days": 2,
+          "slug": "futebol-com-os-craques-da-verdinha",
+          "frequence": "Sábado, de 15h às 22h e domingo, de 15h às 20h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 6,
+            "start_time": "15:00",
+            "end_time": "20:00"
+          }
+        },
+        {
+          "id": 7,
+          "name": "Estúdio Internacional",
+          "short_desc": "Uma passagem pelos placares do mundo afora, ele faz um giro pelos campeonatos de Fortaleza, Ceará, Nordeste, Brasil e o mundo.",
+          "long_desc": "Uma passagem pelos placares do mundo afora, ele faz um giro pelos campeonatos de Fortaleza, Ceará, Nordeste, Brasil e o mundo. O ouvinte fica sabendo dos resultados dos jogos e ainda acompanha os melhores momentos das partidas transmitidas pela Verdinha.",
+          "img": "/img/estudio-internacional5de6a9e81872b.png",
+          "speaker": "Tom Alexandrino, Denis Medeiros e André Almeida",
+          "link": "",
+          "display_days": 1,
+          "slug": "estudio-internacional",
+          "frequence": "Domingo, de 20h às 21h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 7,
+            "start_time": "20:00",
+            "end_time": "21:00"
+          }
+        },
+        {
+          "id": 9,
+          "name": "Da Pelada ao Pelé",
+          "short_desc": "O programa traz o que foi destaque na semana e os resultados dos jogos do futebol amador e, também, dos jogos profissionais pelo Brasil e pelo mundo.",
+          "long_desc": "O programa traz o que foi destaque na semana e os resultados dos jogos do futebol amador e, também, dos jogos profissionais pelo Brasil e pelo mundo. A participação do ouvinte é fundamental, que colabora com o programa, debatendo junto com o professor Luís Eduardo sobre as ligas esportivas e copas que acontecem em todo o Ceará.",
+          "img": "/img/da-pelada-ao-pele5ddebb4eee6b8.png",
+          "speaker": "Luís Eduardo",
+          "link": "",
+          "display_days": 1,
+          "slug": "da-pelada-ao-pele",
+          "frequence": "Domingo, 21h às 00:00",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 1,
+            "program_id": 9,
+            "start_time": "21:00",
+            "end_time": "23:59"
+          }
+        }
+      ]
     },
     {
       "id": 2,
-      "category_id": 1,
-      "name": "Acidente de carro",
-      "slug": "acidente-de-carro",
-      "title": "Últimas notícias sobre Acidente de carro - Diário do Nordeste",
-      "description": null,
-      "image": "/assuntos/images/acidente-de-carro.jpg",
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13237",
-      "category": "Acidentes Desastres e Meio Ambiente"
+      "name": "Segunda",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Show da Madrugada",
+          "short_desc": "É o programa preferido daqueles que trocam o dia pela noite.",
+          "long_desc": "É o programa preferido daqueles que trocam o dia pela noite, trazendo músicas que marcaram época em todos os ritmos, samba, pagode, romântica, internacional e também a música do presente.\"",
+          "img": "/img/show-da-madrugada5ddee13b576b1.png",
+          "speaker": "Programação Musical",
+          "link": "",
+          "display_days": 7,
+          "slug": "show-da-madrugada",
+          "frequence": "Domingo de 0h às 4h. Segunda a sexta de 0h às 5h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 1,
+            "start_time": "00:00",
+            "end_time": "05:00"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira5ddebb5f8e5fa.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 10,
+            "start_time": "05:00",
+            "end_time": "06:30"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Rádio Notícias",
+          "short_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "long_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "img": "/img/radio-noticias5ddebb7175df5.png",
+          "speaker": "Tom Barros e Daniella de Lavor",
+          "link": "",
+          "display_days": 6,
+          "slug": "radio-noticias",
+          "frequence": "De segunda a sábado, das 6h30 às 7h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 11,
+            "start_time": "06:30",
+            "end_time": "07:00"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o\r\n\"Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira-continuacao5ddebb7ceca8a.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta, de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 12,
+            "start_time": "07:00",
+            "end_time": "09:00"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Show da Manhã",
+          "short_desc": "Um show de informação e prestação de serviços todas as manhãs",
+          "long_desc": "Um show de informação e prestação de serviços todas as manhãs e a comunicação de Gleudson Rosa e seus convidados. Saúde, cultura, música. Além de alertar sobre seus diretos, previdenciário e trabalhista.",
+          "img": "/img/show-da-manha5ddebb8a6b448.png",
+          "speaker": "Gleudson Rosa",
+          "link": "",
+          "display_days": 6,
+          "slug": "show-da-manha",
+          "frequence": "Segunda a sábado, das 9h às 11h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 13,
+            "start_time": "09:00",
+            "end_time": "11:30"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Nas Garras da Patrulha",
+          "short_desc": "Matérias policiais satirizadas com muito humor, alegria e diversão.",
+          "long_desc": "Programa com matérias policiais satirizadas, feitas com muito humor, contando com a participação ao vivo dos humoristas Ery Soares, Djacir Oliveira e Cleber Fernandes.",
+          "img": "/img/nas-garras-da-patrulha5ddebba3452a5.png",
+          "speaker": "Ery Soares, Djacir Oliveira e Cléber Fernandes",
+          "link": "",
+          "display_days": 5,
+          "slug": "nas-garras-da-patrulha",
+          "frequence": "Segunda a sexta, das 11h30 às 12h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 14,
+            "start_time": "11:30",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "id": 15,
+          "name": "Atualidades Esportivas",
+          "short_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises.",
+          "long_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises. Os torcedores dos times do Estado podem conferir o dia a dia do time do coração em sintonia com a Verdinha.",
+          "img": "/img/atualidades-esportivas5de938c254a72.png",
+          "speaker": "André Ribeiro",
+          "link": "",
+          "display_days": 6,
+          "slug": "atualidades-esportivas",
+          "frequence": "Segunda a sábado, das 12h às 13h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 15,
+            "start_time": "12:00",
+            "end_time": "13:00"
+          }
+        },
+        {
+          "id": 16,
+          "name": "Programa João Inácio Jr",
+          "short_desc": "O programa aborda notícias locais, nacionais e internacionais nas editorias de polícia, política, economia, negócios, saúde, ciência, tecnologia, sexualidade, esporte e celebridades, tudo em linguagem fácil e envolvente.",
+          "long_desc": "Tendo à frente um comunicador dinâmico, o programa João Inácio Jr. é um sucesso do rádio cearense. Com os quadros: \"Chumbo Grosso\", um policial informativo traz os fatos mais marcantes do dia. O programa também exibe temas polêmicos e as últimas novidades sobre a vida dos artistas com a jornalista Cláudia Leite.",
+          "img": "/img/programa-joao-inacio-jr5ddeb44b7d988.png",
+          "speaker": "João Inácio Jr",
+          "link": "",
+          "display_days": 5,
+          "slug": "programa-joao-inacio-jr",
+          "frequence": "Segunda a sexta, das 13h às 16h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 16,
+            "start_time": "13:00",
+            "end_time": "16:00"
+          }
+        },
+        {
+          "id": 17,
+          "name": "Forrozão da Verdinha",
+          "short_desc": "Traz uma programação especialmente preparada para dar ao público muita música e informação.",
+          "long_desc": "Além do tradicional pé de serra, o programa prestigia também o forró atual, com intuito de atrair um público mais jovem. Muita irreverência com o “Horóscopo do Piru” com participação dos ouvintes. Super descontraído e alegre como o comunicador Tony Nunes.  O programa conta com notícias e informações sobre segurança e sobre o trânsito da cidade. Assim, quem estiver no trânsito, terá orientações sobre quais ruas e avenidas estão engarrafadas ou interditadas e as alternativas. A interatividade é também um dos pontos fortes da atração. Os ouvintes podem ligar e interagir, além de concorrer a vários prêmios.",
+          "img": "/img/forrozao-da-verdinha5ddebbc482dde.png",
+          "speaker": "Tony Nunes",
+          "link": "",
+          "display_days": 5,
+          "slug": "forrozao-da-verdinha",
+          "frequence": "Segunda a sexta, das 16h às 17h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 17,
+            "start_time": "16:00",
+            "end_time": "17:30"
+          }
+        },
+        {
+          "id": 19,
+          "name": "Show de Bola",
+          "short_desc": "Traz as principais notícias sobre os clubes de futebol cearense.",
+          "long_desc": "Um bem-humorado programa esportivo, irreverente sem perder a qualidade na informação. Apresentado pelo radialista Antero Neto, o programa traz tudo sobre o esporte local, com foco maior nos clubes cearenses de futebol e com a participação dos repórteres.",
+          "img": "/img/show-de-bola5de938e6b246a.png",
+          "speaker": "Antero Neto",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-de-bola",
+          "frequence": "Segunda a sexta, das 17:30h às 19h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 19,
+            "start_time": "17:30",
+            "end_time": "19:00"
+          }
+        },
+        {
+          "id": 25,
+          "name": "A Voz do Brasil",
+          "short_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "long_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "img": "/img/a-voz-do-brasil.jpg",
+          "speaker": "EBC",
+          "link": "",
+          "display_days": 5,
+          "slug": "a-voz-do-brasil",
+          "frequence": "Segunda a sexta, das 19h às 20h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 25,
+            "start_time": "19:00",
+            "end_time": "20:00"
+          }
+        },
+        {
+          "id": 24,
+          "name": "Show do Esporte",
+          "short_desc": "A atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "long_desc": "Durante duas horas, a atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "img": "/img/show-do-esporte.png",
+          "speaker": "Dênis Medeiros, Jota Romulo e Luiz Eduardo",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-do-esporte",
+          "frequence": "Segunda a sexta, das 20h às 22h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 24,
+            "start_time": "20:00",
+            "end_time": "22:00"
+          }
+        },
+        {
+          "id": 20,
+          "name": "Clube do Brega",
+          "short_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser.",
+          "long_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser. Silvino Neves, entusiasta do movimento brega, reúne em seu programa os maiores expoentes da música popular e romântica. Com o \"Pediu Ouviu\", atendemos ao pedido do ouvinte e de uma maneira irreverente o \"Trem dos Cornos\" alegra ainda mais a sua noite.",
+          "img": "/img/clube-do-brega5ddebbdd3835f.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 6,
+          "slug": "clube-do-brega",
+          "frequence": "Segunda a sábado, das 22h à 00h00",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 2,
+            "program_id": 20,
+            "start_time": "22:00",
+            "end_time": "23:59"
+          }
+        }
+      ]
     },
     {
       "id": 3,
-      "category_id": 1,
-      "name": "Acidente de ônibus",
-      "slug": "acidente-de-onibus",
-      "title": "Últimas notícias sobre Acidente de ônibus - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13238",
-      "category": "Acidentes Desastres e Meio Ambiente"
+      "name": "Terça",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Show da Madrugada",
+          "short_desc": "É o programa preferido daqueles que trocam o dia pela noite.",
+          "long_desc": "É o programa preferido daqueles que trocam o dia pela noite, trazendo músicas que marcaram época em todos os ritmos, samba, pagode, romântica, internacional e também a música do presente.\"",
+          "img": "/img/show-da-madrugada5ddee13b576b1.png",
+          "speaker": "Programação Musical",
+          "link": "",
+          "display_days": 7,
+          "slug": "show-da-madrugada",
+          "frequence": "Domingo de 0h às 4h. Segunda a sexta de 0h às 5h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 1,
+            "start_time": "00:00",
+            "end_time": "05:00"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira5ddebb5f8e5fa.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 10,
+            "start_time": "05:00",
+            "end_time": "06:30"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Rádio Notícias",
+          "short_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "long_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "img": "/img/radio-noticias5ddebb7175df5.png",
+          "speaker": "Tom Barros e Daniella de Lavor",
+          "link": "",
+          "display_days": 6,
+          "slug": "radio-noticias",
+          "frequence": "De segunda a sábado, das 6h30 às 7h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 11,
+            "start_time": "06:30",
+            "end_time": "07:00"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o\r\n\"Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira-continuacao5ddebb7ceca8a.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta, de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 12,
+            "start_time": "07:00",
+            "end_time": "09:00"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Show da Manhã",
+          "short_desc": "Um show de informação e prestação de serviços todas as manhãs",
+          "long_desc": "Um show de informação e prestação de serviços todas as manhãs e a comunicação de Gleudson Rosa e seus convidados. Saúde, cultura, música. Além de alertar sobre seus diretos, previdenciário e trabalhista.",
+          "img": "/img/show-da-manha5ddebb8a6b448.png",
+          "speaker": "Gleudson Rosa",
+          "link": "",
+          "display_days": 6,
+          "slug": "show-da-manha",
+          "frequence": "Segunda a sábado, das 9h às 11h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 13,
+            "start_time": "09:00",
+            "end_time": "11:30"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Nas Garras da Patrulha",
+          "short_desc": "Matérias policiais satirizadas com muito humor, alegria e diversão.",
+          "long_desc": "Programa com matérias policiais satirizadas, feitas com muito humor, contando com a participação ao vivo dos humoristas Ery Soares, Djacir Oliveira e Cleber Fernandes.",
+          "img": "/img/nas-garras-da-patrulha5ddebba3452a5.png",
+          "speaker": "Ery Soares, Djacir Oliveira e Cléber Fernandes",
+          "link": "",
+          "display_days": 5,
+          "slug": "nas-garras-da-patrulha",
+          "frequence": "Segunda a sexta, das 11h30 às 12h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 14,
+            "start_time": "11:30",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "id": 15,
+          "name": "Atualidades Esportivas",
+          "short_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises.",
+          "long_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises. Os torcedores dos times do Estado podem conferir o dia a dia do time do coração em sintonia com a Verdinha.",
+          "img": "/img/atualidades-esportivas5de938c254a72.png",
+          "speaker": "André Ribeiro",
+          "link": "",
+          "display_days": 6,
+          "slug": "atualidades-esportivas",
+          "frequence": "Segunda a sábado, das 12h às 13h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 15,
+            "start_time": "12:00",
+            "end_time": "13:00"
+          }
+        },
+        {
+          "id": 16,
+          "name": "Programa João Inácio Jr",
+          "short_desc": "O programa aborda notícias locais, nacionais e internacionais nas editorias de polícia, política, economia, negócios, saúde, ciência, tecnologia, sexualidade, esporte e celebridades, tudo em linguagem fácil e envolvente.",
+          "long_desc": "Tendo à frente um comunicador dinâmico, o programa João Inácio Jr. é um sucesso do rádio cearense. Com os quadros: \"Chumbo Grosso\", um policial informativo traz os fatos mais marcantes do dia. O programa também exibe temas polêmicos e as últimas novidades sobre a vida dos artistas com a jornalista Cláudia Leite.",
+          "img": "/img/programa-joao-inacio-jr5ddeb44b7d988.png",
+          "speaker": "João Inácio Jr",
+          "link": "",
+          "display_days": 5,
+          "slug": "programa-joao-inacio-jr",
+          "frequence": "Segunda a sexta, das 13h às 16h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 16,
+            "start_time": "13:00",
+            "end_time": "16:00"
+          }
+        },
+        {
+          "id": 17,
+          "name": "Forrozão da Verdinha",
+          "short_desc": "Traz uma programação especialmente preparada para dar ao público muita música e informação.",
+          "long_desc": "Além do tradicional pé de serra, o programa prestigia também o forró atual, com intuito de atrair um público mais jovem. Muita irreverência com o “Horóscopo do Piru” com participação dos ouvintes. Super descontraído e alegre como o comunicador Tony Nunes.  O programa conta com notícias e informações sobre segurança e sobre o trânsito da cidade. Assim, quem estiver no trânsito, terá orientações sobre quais ruas e avenidas estão engarrafadas ou interditadas e as alternativas. A interatividade é também um dos pontos fortes da atração. Os ouvintes podem ligar e interagir, além de concorrer a vários prêmios.",
+          "img": "/img/forrozao-da-verdinha5ddebbc482dde.png",
+          "speaker": "Tony Nunes",
+          "link": "",
+          "display_days": 5,
+          "slug": "forrozao-da-verdinha",
+          "frequence": "Segunda a sexta, das 16h às 17h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 17,
+            "start_time": "16:00",
+            "end_time": "17:30"
+          }
+        },
+        {
+          "id": 19,
+          "name": "Show de Bola",
+          "short_desc": "Traz as principais notícias sobre os clubes de futebol cearense.",
+          "long_desc": "Um bem-humorado programa esportivo, irreverente sem perder a qualidade na informação. Apresentado pelo radialista Antero Neto, o programa traz tudo sobre o esporte local, com foco maior nos clubes cearenses de futebol e com a participação dos repórteres.",
+          "img": "/img/show-de-bola5de938e6b246a.png",
+          "speaker": "Antero Neto",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-de-bola",
+          "frequence": "Segunda a sexta, das 17:30h às 19h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 19,
+            "start_time": "17:30",
+            "end_time": "19:00"
+          }
+        },
+        {
+          "id": 25,
+          "name": "A Voz do Brasil",
+          "short_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "long_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "img": "/img/a-voz-do-brasil.jpg",
+          "speaker": "EBC",
+          "link": "",
+          "display_days": 5,
+          "slug": "a-voz-do-brasil",
+          "frequence": "Segunda a sexta, das 19h às 20h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 25,
+            "start_time": "19:00",
+            "end_time": "20:00"
+          }
+        },
+        {
+          "id": 24,
+          "name": "Show do Esporte",
+          "short_desc": "A atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "long_desc": "Durante duas horas, a atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "img": "/img/show-do-esporte.png",
+          "speaker": "Dênis Medeiros, Jota Romulo e Luiz Eduardo",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-do-esporte",
+          "frequence": "Segunda a sexta, das 20h às 22h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 24,
+            "start_time": "20:00",
+            "end_time": "22:00"
+          }
+        },
+        {
+          "id": 20,
+          "name": "Clube do Brega",
+          "short_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser.",
+          "long_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser. Silvino Neves, entusiasta do movimento brega, reúne em seu programa os maiores expoentes da música popular e romântica. Com o \"Pediu Ouviu\", atendemos ao pedido do ouvinte e de uma maneira irreverente o \"Trem dos Cornos\" alegra ainda mais a sua noite.",
+          "img": "/img/clube-do-brega5ddebbdd3835f.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 6,
+          "slug": "clube-do-brega",
+          "frequence": "Segunda a sábado, das 22h à 00h00",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 3,
+            "program_id": 20,
+            "start_time": "22:00",
+            "end_time": "23:59"
+          }
+        }
+      ]
     },
     {
       "id": 4,
-      "category_id": 1,
-      "name": "Acidente de trabalho",
-      "slug": "acidente-de-trabalho",
-      "title": "Últimas notícias sobre Acidente de trabalho - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13239",
-      "category": "Acidentes Desastres e Meio Ambiente"
+      "name": "Quarta",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Show da Madrugada",
+          "short_desc": "É o programa preferido daqueles que trocam o dia pela noite.",
+          "long_desc": "É o programa preferido daqueles que trocam o dia pela noite, trazendo músicas que marcaram época em todos os ritmos, samba, pagode, romântica, internacional e também a música do presente.\"",
+          "img": "/img/show-da-madrugada5ddee13b576b1.png",
+          "speaker": "Programação Musical",
+          "link": "",
+          "display_days": 7,
+          "slug": "show-da-madrugada",
+          "frequence": "Domingo de 0h às 4h. Segunda a sexta de 0h às 5h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 1,
+            "start_time": "00:00",
+            "end_time": "05:00"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira5ddebb5f8e5fa.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 10,
+            "start_time": "05:00",
+            "end_time": "06:30"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Rádio Notícias",
+          "short_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "long_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "img": "/img/radio-noticias5ddebb7175df5.png",
+          "speaker": "Tom Barros e Daniella de Lavor",
+          "link": "",
+          "display_days": 6,
+          "slug": "radio-noticias",
+          "frequence": "De segunda a sábado, das 6h30 às 7h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 11,
+            "start_time": "06:30",
+            "end_time": "07:00"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o\r\n\"Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira-continuacao5ddebb7ceca8a.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta, de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 12,
+            "start_time": "07:00",
+            "end_time": "09:00"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Show da Manhã",
+          "short_desc": "Um show de informação e prestação de serviços todas as manhãs",
+          "long_desc": "Um show de informação e prestação de serviços todas as manhãs e a comunicação de Gleudson Rosa e seus convidados. Saúde, cultura, música. Além de alertar sobre seus diretos, previdenciário e trabalhista.",
+          "img": "/img/show-da-manha5ddebb8a6b448.png",
+          "speaker": "Gleudson Rosa",
+          "link": "",
+          "display_days": 6,
+          "slug": "show-da-manha",
+          "frequence": "Segunda a sábado, das 9h às 11h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 13,
+            "start_time": "09:00",
+            "end_time": "11:30"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Nas Garras da Patrulha",
+          "short_desc": "Matérias policiais satirizadas com muito humor, alegria e diversão.",
+          "long_desc": "Programa com matérias policiais satirizadas, feitas com muito humor, contando com a participação ao vivo dos humoristas Ery Soares, Djacir Oliveira e Cleber Fernandes.",
+          "img": "/img/nas-garras-da-patrulha5ddebba3452a5.png",
+          "speaker": "Ery Soares, Djacir Oliveira e Cléber Fernandes",
+          "link": "",
+          "display_days": 5,
+          "slug": "nas-garras-da-patrulha",
+          "frequence": "Segunda a sexta, das 11h30 às 12h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 14,
+            "start_time": "11:30",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "id": 15,
+          "name": "Atualidades Esportivas",
+          "short_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises.",
+          "long_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises. Os torcedores dos times do Estado podem conferir o dia a dia do time do coração em sintonia com a Verdinha.",
+          "img": "/img/atualidades-esportivas5de938c254a72.png",
+          "speaker": "André Ribeiro",
+          "link": "",
+          "display_days": 6,
+          "slug": "atualidades-esportivas",
+          "frequence": "Segunda a sábado, das 12h às 13h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 15,
+            "start_time": "12:00",
+            "end_time": "13:00"
+          }
+        },
+        {
+          "id": 16,
+          "name": "Programa João Inácio Jr",
+          "short_desc": "O programa aborda notícias locais, nacionais e internacionais nas editorias de polícia, política, economia, negócios, saúde, ciência, tecnologia, sexualidade, esporte e celebridades, tudo em linguagem fácil e envolvente.",
+          "long_desc": "Tendo à frente um comunicador dinâmico, o programa João Inácio Jr. é um sucesso do rádio cearense. Com os quadros: \"Chumbo Grosso\", um policial informativo traz os fatos mais marcantes do dia. O programa também exibe temas polêmicos e as últimas novidades sobre a vida dos artistas com a jornalista Cláudia Leite.",
+          "img": "/img/programa-joao-inacio-jr5ddeb44b7d988.png",
+          "speaker": "João Inácio Jr",
+          "link": "",
+          "display_days": 5,
+          "slug": "programa-joao-inacio-jr",
+          "frequence": "Segunda a sexta, das 13h às 16h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 16,
+            "start_time": "13:00",
+            "end_time": "16:00"
+          }
+        },
+        {
+          "id": 17,
+          "name": "Forrozão da Verdinha",
+          "short_desc": "Traz uma programação especialmente preparada para dar ao público muita música e informação.",
+          "long_desc": "Além do tradicional pé de serra, o programa prestigia também o forró atual, com intuito de atrair um público mais jovem. Muita irreverência com o “Horóscopo do Piru” com participação dos ouvintes. Super descontraído e alegre como o comunicador Tony Nunes.  O programa conta com notícias e informações sobre segurança e sobre o trânsito da cidade. Assim, quem estiver no trânsito, terá orientações sobre quais ruas e avenidas estão engarrafadas ou interditadas e as alternativas. A interatividade é também um dos pontos fortes da atração. Os ouvintes podem ligar e interagir, além de concorrer a vários prêmios.",
+          "img": "/img/forrozao-da-verdinha5ddebbc482dde.png",
+          "speaker": "Tony Nunes",
+          "link": "",
+          "display_days": 5,
+          "slug": "forrozao-da-verdinha",
+          "frequence": "Segunda a sexta, das 16h às 17h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 17,
+            "start_time": "16:00",
+            "end_time": "17:30"
+          }
+        },
+        {
+          "id": 19,
+          "name": "Show de Bola",
+          "short_desc": "Traz as principais notícias sobre os clubes de futebol cearense.",
+          "long_desc": "Um bem-humorado programa esportivo, irreverente sem perder a qualidade na informação. Apresentado pelo radialista Antero Neto, o programa traz tudo sobre o esporte local, com foco maior nos clubes cearenses de futebol e com a participação dos repórteres.",
+          "img": "/img/show-de-bola5de938e6b246a.png",
+          "speaker": "Antero Neto",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-de-bola",
+          "frequence": "Segunda a sexta, das 17:30h às 19h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 19,
+            "start_time": "17:30",
+            "end_time": "19:00"
+          }
+        },
+        {
+          "id": 25,
+          "name": "A Voz do Brasil",
+          "short_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "long_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "img": "/img/a-voz-do-brasil.jpg",
+          "speaker": "EBC",
+          "link": "",
+          "display_days": 5,
+          "slug": "a-voz-do-brasil",
+          "frequence": "Segunda a sexta, das 19h às 20h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 25,
+            "start_time": "19:00",
+            "end_time": "20:00"
+          }
+        },
+        {
+          "id": 24,
+          "name": "Show do Esporte",
+          "short_desc": "A atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "long_desc": "Durante duas horas, a atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "img": "/img/show-do-esporte.png",
+          "speaker": "Dênis Medeiros, Jota Romulo e Luiz Eduardo",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-do-esporte",
+          "frequence": "Segunda a sexta, das 20h às 22h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 24,
+            "start_time": "20:00",
+            "end_time": "22:00"
+          }
+        },
+        {
+          "id": 20,
+          "name": "Clube do Brega",
+          "short_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser.",
+          "long_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser. Silvino Neves, entusiasta do movimento brega, reúne em seu programa os maiores expoentes da música popular e romântica. Com o \"Pediu Ouviu\", atendemos ao pedido do ouvinte e de uma maneira irreverente o \"Trem dos Cornos\" alegra ainda mais a sua noite.",
+          "img": "/img/clube-do-brega5ddebbdd3835f.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 6,
+          "slug": "clube-do-brega",
+          "frequence": "Segunda a sábado, das 22h à 00h00",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 4,
+            "program_id": 20,
+            "start_time": "22:00",
+            "end_time": "23:59"
+          }
+        }
+      ]
     },
     {
       "id": 5,
-      "category_id": 1,
-      "name": "Acidente de trânsito",
-      "slug": "acidente-de-transito",
-      "title": "Últimas notícias sobre Acidente de trânsito - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13240",
-      "category": "Acidentes Desastres e Meio Ambiente"
+      "name": "Quinta",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Show da Madrugada",
+          "short_desc": "É o programa preferido daqueles que trocam o dia pela noite.",
+          "long_desc": "É o programa preferido daqueles que trocam o dia pela noite, trazendo músicas que marcaram época em todos os ritmos, samba, pagode, romântica, internacional e também a música do presente.\"",
+          "img": "/img/show-da-madrugada5ddee13b576b1.png",
+          "speaker": "Programação Musical",
+          "link": "",
+          "display_days": 7,
+          "slug": "show-da-madrugada",
+          "frequence": "Domingo de 0h às 4h. Segunda a sexta de 0h às 5h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 1,
+            "start_time": "00:00",
+            "end_time": "05:00"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira5ddebb5f8e5fa.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 10,
+            "start_time": "05:00",
+            "end_time": "06:30"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Rádio Notícias",
+          "short_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "long_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "img": "/img/radio-noticias5ddebb7175df5.png",
+          "speaker": "Tom Barros e Daniella de Lavor",
+          "link": "",
+          "display_days": 6,
+          "slug": "radio-noticias",
+          "frequence": "De segunda a sábado, das 6h30 às 7h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 11,
+            "start_time": "06:30",
+            "end_time": "07:00"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o\r\n\"Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira-continuacao5ddebb7ceca8a.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta, de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 12,
+            "start_time": "07:00",
+            "end_time": "09:00"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Show da Manhã",
+          "short_desc": "Um show de informação e prestação de serviços todas as manhãs",
+          "long_desc": "Um show de informação e prestação de serviços todas as manhãs e a comunicação de Gleudson Rosa e seus convidados. Saúde, cultura, música. Além de alertar sobre seus diretos, previdenciário e trabalhista.",
+          "img": "/img/show-da-manha5ddebb8a6b448.png",
+          "speaker": "Gleudson Rosa",
+          "link": "",
+          "display_days": 6,
+          "slug": "show-da-manha",
+          "frequence": "Segunda a sábado, das 9h às 11h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 13,
+            "start_time": "09:00",
+            "end_time": "11:30"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Nas Garras da Patrulha",
+          "short_desc": "Matérias policiais satirizadas com muito humor, alegria e diversão.",
+          "long_desc": "Programa com matérias policiais satirizadas, feitas com muito humor, contando com a participação ao vivo dos humoristas Ery Soares, Djacir Oliveira e Cleber Fernandes.",
+          "img": "/img/nas-garras-da-patrulha5ddebba3452a5.png",
+          "speaker": "Ery Soares, Djacir Oliveira e Cléber Fernandes",
+          "link": "",
+          "display_days": 5,
+          "slug": "nas-garras-da-patrulha",
+          "frequence": "Segunda a sexta, das 11h30 às 12h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 14,
+            "start_time": "11:30",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "id": 15,
+          "name": "Atualidades Esportivas",
+          "short_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises.",
+          "long_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises. Os torcedores dos times do Estado podem conferir o dia a dia do time do coração em sintonia com a Verdinha.",
+          "img": "/img/atualidades-esportivas5de938c254a72.png",
+          "speaker": "André Ribeiro",
+          "link": "",
+          "display_days": 6,
+          "slug": "atualidades-esportivas",
+          "frequence": "Segunda a sábado, das 12h às 13h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 15,
+            "start_time": "12:00",
+            "end_time": "13:00"
+          }
+        },
+        {
+          "id": 16,
+          "name": "Programa João Inácio Jr",
+          "short_desc": "O programa aborda notícias locais, nacionais e internacionais nas editorias de polícia, política, economia, negócios, saúde, ciência, tecnologia, sexualidade, esporte e celebridades, tudo em linguagem fácil e envolvente.",
+          "long_desc": "Tendo à frente um comunicador dinâmico, o programa João Inácio Jr. é um sucesso do rádio cearense. Com os quadros: \"Chumbo Grosso\", um policial informativo traz os fatos mais marcantes do dia. O programa também exibe temas polêmicos e as últimas novidades sobre a vida dos artistas com a jornalista Cláudia Leite.",
+          "img": "/img/programa-joao-inacio-jr5ddeb44b7d988.png",
+          "speaker": "João Inácio Jr",
+          "link": "",
+          "display_days": 5,
+          "slug": "programa-joao-inacio-jr",
+          "frequence": "Segunda a sexta, das 13h às 16h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 16,
+            "start_time": "13:00",
+            "end_time": "16:00"
+          }
+        },
+        {
+          "id": 17,
+          "name": "Forrozão da Verdinha",
+          "short_desc": "Traz uma programação especialmente preparada para dar ao público muita música e informação.",
+          "long_desc": "Além do tradicional pé de serra, o programa prestigia também o forró atual, com intuito de atrair um público mais jovem. Muita irreverência com o “Horóscopo do Piru” com participação dos ouvintes. Super descontraído e alegre como o comunicador Tony Nunes.  O programa conta com notícias e informações sobre segurança e sobre o trânsito da cidade. Assim, quem estiver no trânsito, terá orientações sobre quais ruas e avenidas estão engarrafadas ou interditadas e as alternativas. A interatividade é também um dos pontos fortes da atração. Os ouvintes podem ligar e interagir, além de concorrer a vários prêmios.",
+          "img": "/img/forrozao-da-verdinha5ddebbc482dde.png",
+          "speaker": "Tony Nunes",
+          "link": "",
+          "display_days": 5,
+          "slug": "forrozao-da-verdinha",
+          "frequence": "Segunda a sexta, das 16h às 17h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 17,
+            "start_time": "16:00",
+            "end_time": "17:30"
+          }
+        },
+        {
+          "id": 19,
+          "name": "Show de Bola",
+          "short_desc": "Traz as principais notícias sobre os clubes de futebol cearense.",
+          "long_desc": "Um bem-humorado programa esportivo, irreverente sem perder a qualidade na informação. Apresentado pelo radialista Antero Neto, o programa traz tudo sobre o esporte local, com foco maior nos clubes cearenses de futebol e com a participação dos repórteres.",
+          "img": "/img/show-de-bola5de938e6b246a.png",
+          "speaker": "Antero Neto",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-de-bola",
+          "frequence": "Segunda a sexta, das 17:30h às 19h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 19,
+            "start_time": "17:30",
+            "end_time": "19:00"
+          }
+        },
+        {
+          "id": 25,
+          "name": "A Voz do Brasil",
+          "short_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "long_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "img": "/img/a-voz-do-brasil.jpg",
+          "speaker": "EBC",
+          "link": "",
+          "display_days": 5,
+          "slug": "a-voz-do-brasil",
+          "frequence": "Segunda a sexta, das 19h às 20h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 25,
+            "start_time": "19:00",
+            "end_time": "20:00"
+          }
+        },
+        {
+          "id": 24,
+          "name": "Show do Esporte",
+          "short_desc": "A atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "long_desc": "Durante duas horas, a atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "img": "/img/show-do-esporte.png",
+          "speaker": "Dênis Medeiros, Jota Romulo e Luiz Eduardo",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-do-esporte",
+          "frequence": "Segunda a sexta, das 20h às 22h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 24,
+            "start_time": "20:00",
+            "end_time": "22:00"
+          }
+        },
+        {
+          "id": 20,
+          "name": "Clube do Brega",
+          "short_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser.",
+          "long_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser. Silvino Neves, entusiasta do movimento brega, reúne em seu programa os maiores expoentes da música popular e romântica. Com o \"Pediu Ouviu\", atendemos ao pedido do ouvinte e de uma maneira irreverente o \"Trem dos Cornos\" alegra ainda mais a sua noite.",
+          "img": "/img/clube-do-brega5ddebbdd3835f.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 6,
+          "slug": "clube-do-brega",
+          "frequence": "Segunda a sábado, das 22h à 00h00",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 5,
+            "program_id": 20,
+            "start_time": "22:00",
+            "end_time": "23:59"
+          }
+        }
+      ]
     },
     {
       "id": 6,
-      "category_id": 1,
-      "name": "Acidente doméstico",
-      "slug": "acidente-domestico",
-      "title": "Últimas notícias sobre Acidente doméstico - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13241",
-      "category": "Acidentes Desastres e Meio Ambiente"
+      "name": "Sexta",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Show da Madrugada",
+          "short_desc": "É o programa preferido daqueles que trocam o dia pela noite.",
+          "long_desc": "É o programa preferido daqueles que trocam o dia pela noite, trazendo músicas que marcaram época em todos os ritmos, samba, pagode, romântica, internacional e também a música do presente.\"",
+          "img": "/img/show-da-madrugada5ddee13b576b1.png",
+          "speaker": "Programação Musical",
+          "link": "",
+          "display_days": 7,
+          "slug": "show-da-madrugada",
+          "frequence": "Domingo de 0h às 4h. Segunda a sexta de 0h às 5h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 1,
+            "start_time": "00:00",
+            "end_time": "05:00"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira5ddebb5f8e5fa.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 10,
+            "start_time": "05:00",
+            "end_time": "06:30"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Rádio Notícias",
+          "short_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "long_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "img": "/img/radio-noticias5ddebb7175df5.png",
+          "speaker": "Tom Barros e Daniella de Lavor",
+          "link": "",
+          "display_days": 6,
+          "slug": "radio-noticias",
+          "frequence": "De segunda a sábado, das 6h30 às 7h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 11,
+            "start_time": "06:30",
+            "end_time": "07:00"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Paulo Oliveira",
+          "short_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone,entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral.",
+          "long_desc": "Com abordagem de assuntos políticos, econômicos e policiais, o programa tem a participação direta dos ouvintes por telefone, entrevistas com grandes nomes da política local e nacional, no qual são abordados temas de interesse da comunidade em geral. O programa conta ainda com o\r\n\"Rádio Notícias\", comandado por Tom Barros e Daniella De Lavor, que leva muita informação diária aos ouvintes, de segunda a sexta, de 6h30 às 7h.",
+          "img": "/img/paulo-oliveira-continuacao5ddebb7ceca8a.png",
+          "speaker": "Paulo Oliveira",
+          "link": "",
+          "display_days": 5,
+          "slug": "paulo-oliveira",
+          "frequence": "De segunda a sexta, de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 12,
+            "start_time": "07:00",
+            "end_time": "09:00"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Show da Manhã",
+          "short_desc": "Um show de informação e prestação de serviços todas as manhãs",
+          "long_desc": "Um show de informação e prestação de serviços todas as manhãs e a comunicação de Gleudson Rosa e seus convidados. Saúde, cultura, música. Além de alertar sobre seus diretos, previdenciário e trabalhista.",
+          "img": "/img/show-da-manha5ddebb8a6b448.png",
+          "speaker": "Gleudson Rosa",
+          "link": "",
+          "display_days": 6,
+          "slug": "show-da-manha",
+          "frequence": "Segunda a sábado, das 9h às 11h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 13,
+            "start_time": "09:00",
+            "end_time": "11:30"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Nas Garras da Patrulha",
+          "short_desc": "Matérias policiais satirizadas com muito humor, alegria e diversão.",
+          "long_desc": "Programa com matérias policiais satirizadas, feitas com muito humor, contando com a participação ao vivo dos humoristas Ery Soares, Djacir Oliveira e Cleber Fernandes.",
+          "img": "/img/nas-garras-da-patrulha5ddebba3452a5.png",
+          "speaker": "Ery Soares, Djacir Oliveira e Cléber Fernandes",
+          "link": "",
+          "display_days": 5,
+          "slug": "nas-garras-da-patrulha",
+          "frequence": "Segunda a sexta, das 11h30 às 12h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 14,
+            "start_time": "11:30",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "id": 15,
+          "name": "Atualidades Esportivas",
+          "short_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises.",
+          "long_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises. Os torcedores dos times do Estado podem conferir o dia a dia do time do coração em sintonia com a Verdinha.",
+          "img": "/img/atualidades-esportivas5de938c254a72.png",
+          "speaker": "André Ribeiro",
+          "link": "",
+          "display_days": 6,
+          "slug": "atualidades-esportivas",
+          "frequence": "Segunda a sábado, das 12h às 13h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 15,
+            "start_time": "12:00",
+            "end_time": "13:00"
+          }
+        },
+        {
+          "id": 16,
+          "name": "Programa João Inácio Jr",
+          "short_desc": "O programa aborda notícias locais, nacionais e internacionais nas editorias de polícia, política, economia, negócios, saúde, ciência, tecnologia, sexualidade, esporte e celebridades, tudo em linguagem fácil e envolvente.",
+          "long_desc": "Tendo à frente um comunicador dinâmico, o programa João Inácio Jr. é um sucesso do rádio cearense. Com os quadros: \"Chumbo Grosso\", um policial informativo traz os fatos mais marcantes do dia. O programa também exibe temas polêmicos e as últimas novidades sobre a vida dos artistas com a jornalista Cláudia Leite.",
+          "img": "/img/programa-joao-inacio-jr5ddeb44b7d988.png",
+          "speaker": "João Inácio Jr",
+          "link": "",
+          "display_days": 5,
+          "slug": "programa-joao-inacio-jr",
+          "frequence": "Segunda a sexta, das 13h às 16h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 16,
+            "start_time": "13:00",
+            "end_time": "16:00"
+          }
+        },
+        {
+          "id": 17,
+          "name": "Forrozão da Verdinha",
+          "short_desc": "Traz uma programação especialmente preparada para dar ao público muita música e informação.",
+          "long_desc": "Além do tradicional pé de serra, o programa prestigia também o forró atual, com intuito de atrair um público mais jovem. Muita irreverência com o “Horóscopo do Piru” com participação dos ouvintes. Super descontraído e alegre como o comunicador Tony Nunes.  O programa conta com notícias e informações sobre segurança e sobre o trânsito da cidade. Assim, quem estiver no trânsito, terá orientações sobre quais ruas e avenidas estão engarrafadas ou interditadas e as alternativas. A interatividade é também um dos pontos fortes da atração. Os ouvintes podem ligar e interagir, além de concorrer a vários prêmios.",
+          "img": "/img/forrozao-da-verdinha5ddebbc482dde.png",
+          "speaker": "Tony Nunes",
+          "link": "",
+          "display_days": 5,
+          "slug": "forrozao-da-verdinha",
+          "frequence": "Segunda a sexta, das 16h às 17h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 17,
+            "start_time": "16:00",
+            "end_time": "17:30"
+          }
+        },
+        {
+          "id": 19,
+          "name": "Show de Bola",
+          "short_desc": "Traz as principais notícias sobre os clubes de futebol cearense.",
+          "long_desc": "Um bem-humorado programa esportivo, irreverente sem perder a qualidade na informação. Apresentado pelo radialista Antero Neto, o programa traz tudo sobre o esporte local, com foco maior nos clubes cearenses de futebol e com a participação dos repórteres.",
+          "img": "/img/show-de-bola5de938e6b246a.png",
+          "speaker": "Antero Neto",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-de-bola",
+          "frequence": "Segunda a sexta, das 17:30h às 19h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 19,
+            "start_time": "17:30",
+            "end_time": "19:00"
+          }
+        },
+        {
+          "id": 25,
+          "name": "A Voz do Brasil",
+          "short_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "long_desc": "Programa radiofônico estatal elaborado pela Empresa Brasil de Comunicação (EBC) e transmitido para todo o país.",
+          "img": "/img/a-voz-do-brasil.jpg",
+          "speaker": "EBC",
+          "link": "",
+          "display_days": 5,
+          "slug": "a-voz-do-brasil",
+          "frequence": "Segunda a sexta, das 19h às 20h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 25,
+            "start_time": "19:00",
+            "end_time": "20:00"
+          }
+        },
+        {
+          "id": 24,
+          "name": "Show do Esporte",
+          "short_desc": "A atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "long_desc": "Durante duas horas, a atração esportiva traz comentários, análises, críticas e informações de última hora de tudo o que aconteceu durante o dia nas quatro linhas dos clubes cearenses.",
+          "img": "/img/show-do-esporte.png",
+          "speaker": "Dênis Medeiros, Jota Romulo e Luiz Eduardo",
+          "link": "",
+          "display_days": 5,
+          "slug": "show-do-esporte",
+          "frequence": "Segunda a sexta, das 20h às 22h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 24,
+            "start_time": "20:00",
+            "end_time": "22:00"
+          }
+        },
+        {
+          "id": 20,
+          "name": "Clube do Brega",
+          "short_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser.",
+          "long_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser. Silvino Neves, entusiasta do movimento brega, reúne em seu programa os maiores expoentes da música popular e romântica. Com o \"Pediu Ouviu\", atendemos ao pedido do ouvinte e de uma maneira irreverente o \"Trem dos Cornos\" alegra ainda mais a sua noite.",
+          "img": "/img/clube-do-brega5ddebbdd3835f.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 6,
+          "slug": "clube-do-brega",
+          "frequence": "Segunda a sábado, das 22h à 00h00",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 6,
+            "program_id": 20,
+            "start_time": "22:00",
+            "end_time": "23:59"
+          }
+        }
+      ]
     },
     {
       "id": 7,
-      "category_id": 1,
-      "name": "Acidente nuclear",
-      "slug": "acidente-nuclear",
-      "title": "Últimas notícias sobre Acidente nuclear - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13242",
-      "category": "Acidentes Desastres e Meio Ambiente"
-    },
-    {
-      "id": 8,
-      "category_id": 1,
-      "name": "Açude",
-      "slug": "acude",
-      "title": "Últimas notícias sobre Açude - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13243",
-      "category": "Acidentes Desastres e Meio Ambiente"
-    },
-    {
-      "id": 9,
-      "category_id": 1,
-      "name": "Afogamento",
-      "slug": "afogamento",
-      "title": "Últimas notícias sobre Afogamento - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13244",
-      "category": "Acidentes Desastres e Meio Ambiente"
-    },
-    {
-      "id": 10,
-      "category_id": 1,
-      "name": "Agressão",
-      "slug": "agressao",
-      "title": "Últimas notícias sobre Agressão - Diário do Nordeste",
-      "description": null,
-      "image": null,
-      "created_at": "2019-09-06 21:14:46",
-      "updated_at": "2019-10-14 20:24:01",
-      "id_polopoly": "2.13245",
-      "category": "Acidentes Desastres e Meio Ambiente"
+      "name": "Sábado",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Show da Madrugada",
+          "short_desc": "É o programa preferido daqueles que trocam o dia pela noite.",
+          "long_desc": "É o programa preferido daqueles que trocam o dia pela noite, trazendo músicas que marcaram época em todos os ritmos, samba, pagode, romântica, internacional e também a música do presente.\"",
+          "img": "/img/show-da-madrugada5ddee13b576b1.png",
+          "speaker": "Programação Musical",
+          "link": "",
+          "display_days": 7,
+          "slug": "show-da-madrugada",
+          "frequence": "Domingo de 0h às 4h. Segunda a sexta de 0h às 5h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 1,
+            "start_time": "00:00",
+            "end_time": "05:00"
+          }
+        },
+        {
+          "id": 21,
+          "name": "Conexão Verdinha",
+          "short_desc": "As manhãs de sábado começam com muita informação e animação.",
+          "long_desc": "As manhãs de sábado começam com muita informação e animação. No Conexão Verdinha, os ouvintes ficam por dentro de todas as notícias, acompanham as entrevistas e curtem uma boa música, sempre com muita interatividade e a participação do ouvinte.",
+          "img": "/img/conexao-verdinha5ddebf320bb13.png",
+          "speaker": "Daniella de Lavor",
+          "link": "",
+          "display_days": 1,
+          "slug": "conexao-verdinha",
+          "frequence": "Aos sábados de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 21,
+            "start_time": "05:00",
+            "end_time": "06:30"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Rádio Notícias",
+          "short_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "long_desc": "O boletim abrange notícias gerais, privilegiando temas de utilidade pública, como economia, política, saúde e demais serviços sociais que auxiliem o dia a dia do cidadão cearense.",
+          "img": "/img/radio-noticias5ddebb7175df5.png",
+          "speaker": "Tom Barros e Daniella de Lavor",
+          "link": "",
+          "display_days": 6,
+          "slug": "radio-noticias",
+          "frequence": "De segunda a sábado, das 6h30 às 7h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 11,
+            "start_time": "06:30",
+            "end_time": "07:00"
+          }
+        },
+        {
+          "id": 22,
+          "name": "Conexão Verdinha",
+          "short_desc": "As manhãs de sábado começam com muita informação e animação.",
+          "long_desc": "As manhãs de sábado começam com muita informação e animação. No Conexão Verdinha, os ouvintes ficam por dentro de todas as notícias, acompanham as entrevistas e curtem uma boa música, sempre com muita interatividade e a participação do ouvinte.",
+          "img": "/img/conexao-verdinha-continuacao5ddebf40e7654.png",
+          "speaker": "Daniella de Lavor",
+          "link": "",
+          "display_days": 1,
+          "slug": "conexao-verdinha",
+          "frequence": "Aos sábados de 5h às 9h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 22,
+            "start_time": "07:00",
+            "end_time": "09:00"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Show da Manhã",
+          "short_desc": "Um show de informação e prestação de serviços todas as manhãs",
+          "long_desc": "Um show de informação e prestação de serviços todas as manhãs e a comunicação de Gleudson Rosa e seus convidados. Saúde, cultura, música. Além de alertar sobre seus diretos, previdenciário e trabalhista.",
+          "img": "/img/show-da-manha5ddebb8a6b448.png",
+          "speaker": "Gleudson Rosa",
+          "link": "",
+          "display_days": 6,
+          "slug": "show-da-manha",
+          "frequence": "Segunda a sábado, das 9h às 11h30",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 13,
+            "start_time": "09:00",
+            "end_time": "11:30"
+          }
+        },
+        {
+          "id": 15,
+          "name": "Atualidades Esportivas",
+          "short_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises.",
+          "long_desc": "Programa com as últimas informações dos clubes cearenses com reportagens, notícias e análises. Os torcedores dos times do Estado podem conferir o dia a dia do time do coração em sintonia com a Verdinha.",
+          "img": "/img/atualidades-esportivas5de938c254a72.png",
+          "speaker": "André Ribeiro",
+          "link": "",
+          "display_days": 6,
+          "slug": "atualidades-esportivas",
+          "frequence": "Segunda a sábado, das 12h às 13h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 15,
+            "start_time": "12:00",
+            "end_time": "13:00"
+          }
+        },
+        {
+          "id": 23,
+          "name": "Clássicos do Brega",
+          "short_desc": "A atração reúne música de qualidade e clássicos românticos do brega que marcaram época.",
+          "long_desc": "Atração, comandada pelo comunicador Silvino Neves, reúne música de qualidade e clássicos românticos do brega que marcaram época. Com a participação do ouvinte, o programa exibe também o melhor da música da Jovem Guarda, com curiosidade sobre os artistas, informações e fatos diversos.",
+          "img": "/img/classicos-do-brega5ddebc390a657.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 1,
+          "slug": "classicos-do-brega",
+          "frequence": "Sábados, 13h às 15h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 23,
+            "start_time": "13:00",
+            "end_time": "15:00"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Futebol com os Craques da Verdinha",
+          "short_desc": "A participação dos clubes cearenses é destaque na transmissão de jogos.",
+          "long_desc": "Antes das transmissões dos jogos, você pode acompanhar todo os momentos com a equipe esportiva da Verdinha. Logo em seguida, os consagrados locutores da Rádio Verdes Mares narram os campeonatos de futebol pelo País. A participação dos clubes cearenses é destaque na transmissão de jogos. Grandes torneios internacionais, como a Copa das Confederações e Copa do Mundo, também são acompanhados pelos Craques da Verdinha. A emoção continua depois do apito final: nossos especialistas comentam os gols, lances, atuação dos jogadores, situação na tabela e muito mais.",
+          "img": "/img/futebol-com-os-craques-da-verdinha5ddec56a36329.png",
+          "speaker": "Equipe esportiva",
+          "link": "",
+          "display_days": 2,
+          "slug": "futebol-com-os-craques-da-verdinha",
+          "frequence": "Sábado, de 15h às 22h e domingo, de 15h às 20h",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 6,
+            "start_time": "15:00",
+            "end_time": "22:00"
+          }
+        },
+        {
+          "id": 20,
+          "name": "Clube do Brega",
+          "short_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser.",
+          "long_desc": "O romantismo exacerbado e toda a irreverência de quem ama e vive o jeito brega de ser. Silvino Neves, entusiasta do movimento brega, reúne em seu programa os maiores expoentes da música popular e romântica. Com o \"Pediu Ouviu\", atendemos ao pedido do ouvinte e de uma maneira irreverente o \"Trem dos Cornos\" alegra ainda mais a sua noite.",
+          "img": "/img/clube-do-brega5ddebbdd3835f.png",
+          "speaker": "Silvino Neves",
+          "link": "",
+          "display_days": 6,
+          "slug": "clube-do-brega",
+          "frequence": "Segunda a sábado, das 22h à 00h00",
+          "embed": null,
+          "color": "#4e368d",
+          "pivot": {
+            "day_week_id": 7,
+            "program_id": 20,
+            "start_time": "22:00",
+            "end_time": "23:59"
+          }
+        }
+      ]
     }
   ]
+}
